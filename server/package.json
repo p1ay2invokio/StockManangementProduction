@@ -1,0 +1,27 @@
+{
+  "name": "scanner-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node server.ts",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mssql": "^10.0.4",
+    "node-windows": "^1.0.0-beta.8",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typeorm": "^0.3.20"
+  }
+}
